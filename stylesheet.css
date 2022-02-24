@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    font-size: 35px;        
+}
+.container {
+    border: 0px solid red;
+    height: 100vh;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+    display: grid;
+    place-content: center;
+    background-color: /*#cdb4db*/ #fff ;
+}
+#size {
+    position: absolute;
+
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 35px;
+    color: black;
+}
+
+
+@media (min-width: 700px) {
+    .container {
+    background-color: red;
+    }
+}
