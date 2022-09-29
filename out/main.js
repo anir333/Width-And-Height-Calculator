@@ -11,3 +11,5 @@ function screenWidth() {
     
     document.getElementById("height").innerHTML = "Height : " + myHeight + "px";
 }
+
+
